@@ -1,6 +1,5 @@
 
 
-
 .slider {
     height: 80vh;
     width: 80vw;
@@ -8,7 +7,9 @@
     object-fit: cover;
 }
 
-
+.br {
+    border-radius: 10px;
+}
 
 
 
