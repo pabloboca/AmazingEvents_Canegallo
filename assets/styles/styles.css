@@ -11,7 +11,9 @@
     border-radius: 10px;
 }
 
-
+footer {
+    min-height: 5vh;
+}
 
 
 
