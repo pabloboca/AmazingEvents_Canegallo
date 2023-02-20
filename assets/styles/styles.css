@@ -11,6 +11,19 @@
     border-radius: 10px;
 }
 
+
+
+
+.b_shadow{
+   box-shadow: -.2em -.2em 10px; 
+}
+.b_shadow_button {
+    box-shadow: -.2em -.2em 10px red;
+}
+.b_shadow_button:hover {
+    background-color: blueviolet;
+}
+
 footer {
     min-height: 5vh;
 }
