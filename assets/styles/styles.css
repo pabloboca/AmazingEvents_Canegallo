@@ -16,18 +16,29 @@
 
 
 
-
+.letter_color {
+    color: #D90368;
+}
+.border_color {
+    border: 1px solid #D90368;
+}
+.jover:hover{
+    background-color: #D90368;
+    color: white;
+}
 .b_shadow{
    box-shadow: -.2em -.2em 10px; 
 }
 .b_shadow_button {
-    box-shadow: -.2em -.2em 10px red;
+    background-color: #D90368;
+    box-shadow: -.2em -.2em 10px blueviolet;
 }
 .b_shadow_button:hover {
     background-color: blueviolet;
 }
 
 footer {
+    background-color: #D90368;
     min-height: 5vh;
 }
 
