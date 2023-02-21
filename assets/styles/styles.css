@@ -51,7 +51,16 @@ footer {
     background-color: #D90368;
 }
 
-
+/*page details*/
+.card_total {
+    min-width: 80vw;
+    min-height: 60vh;
+    margin: auto;
+    padding: 30px;
+}
+.alto {
+    min-height: 50vh;
+}
 
 
 
