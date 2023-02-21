@@ -14,10 +14,14 @@
     border-radius: 10px;
 }
 
-
-
 .letter_color {
     color: #D90368;
+}
+.bg_color {
+    background-color: #D90368;
+}
+.bg_color:hover {
+    background-color: blueviolet;
 }
 .border_color {
     border: 1px solid #D90368;
@@ -42,7 +46,7 @@ footer {
     min-height: 5vh;
 }
 
-
+/*page contact*/
 
 
 
