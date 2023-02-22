@@ -46,9 +46,11 @@ footer {
     min-height: 5vh;
 }
 
-/*page stats*/
 .bg_color2 {
     background-color: #D90368;
+}
+.sombra {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
 /*page details*/
