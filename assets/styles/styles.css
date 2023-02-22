@@ -70,8 +70,12 @@ footer {
         width: 50vw;
         margin: auto;
     }
-    nav ul li a{
-        padding-left: 30px;
+    .pm{
+        padding-left: 10px;
+    }
+    .sp {
+        padding-top: 20px;
+        padding-bottom: 5px;
     }
 }
 @media screen and (max-width: 576px) {
