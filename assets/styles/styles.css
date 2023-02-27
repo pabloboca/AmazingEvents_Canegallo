@@ -62,6 +62,10 @@ footer {
     min-height: 50vh;
 }
 
+caption {
+    caption-side: top;
+}
+
 
 /*mediaqueries*/
 @media screen and (max-width: 768px) {
