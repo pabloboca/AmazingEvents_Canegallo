@@ -38,7 +38,9 @@
 .b_shadow_button:hover {
     background-color: blueviolet;
 }
-
+.altura {
+    height: 150px;
+}
 footer {
     background-color: #D90368;
     min-height: 5vh;
@@ -49,6 +51,12 @@ footer {
 }
 .sombra {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.card {
+    transition: all 400ms ease;
+}
+.card:hover {
+    transform: translateY(-3%);
 }
 
 /*page details*/
