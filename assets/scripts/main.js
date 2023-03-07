@@ -4,7 +4,7 @@ let tarjetas = ''
 
 for (let d of data.events) {
     tarjetas += `
-        <div class="card pt-2 shadow" style="width: 15rem;">
+        <div class="card pt-2 mb-4 shadow" style="width: 15rem;">
             <img src="${d.image}" class="card-img-top w-100 b_shadow altura" alt="party">
             <div class="card-body text-center">
                 <h5 class="card-title">${d.name}</h5>
@@ -12,7 +12,7 @@ for (let d of data.events) {
             </div>
             <div class="card-footer d-flex justify-content-around align-items-center">
                 <span class="card-text ">Price: ${d.price}</span>
-                <a href="./details.html" class="btn btn-danger b_shadow_button">More</a>
+                <a href="./details.html" class="btn btn-danger b_shadow_button">Details</a>
             </div>
         </div>
     `
