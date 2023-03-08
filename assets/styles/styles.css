@@ -7,7 +7,9 @@
     height: 90vh;
 }
 
-
+main {
+    min-height: auto;
+}
 .br {
     border-radius: 10px;
 }
@@ -44,6 +46,10 @@
 footer {
     background-color: #D90368;
     min-height: 5vh;
+}
+footer ul {
+    height: 2.7rem;
+    align-items: center;
 }
 
 .bg_color2 {
