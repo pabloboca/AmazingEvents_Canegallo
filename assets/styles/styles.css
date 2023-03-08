@@ -4,7 +4,7 @@
 }
 
 .slider {
-    height: 90vh;
+    height: 62vh;
 }
 
 main {
@@ -75,13 +75,22 @@ footer ul {
 .alto {
     min-height: 50vh;
 }
+.ofc{
+    object-fit: fill;
+}
 
+/*stats*/
 caption {
     caption-side: top;
 }
 
 
 /*mediaqueries*/
+@media screen and (max-width: 990px){
+    .pm {
+        padding-left: 10px;
+    }
+}
 @media screen and (max-width: 768px) {
     .slider {
         height: 28vh;
